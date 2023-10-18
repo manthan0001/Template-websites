@@ -94,12 +94,21 @@ html,body{
 }
 
 #heroleft .elem{
+    position: relative;
     height: 9vw;
     
     overflow: hidden;
 }
 
+#heroleft .elem h1:nth-child(1){
+    top: 0;
+    
+}
+
 #heroleft .elem h1{
+    position: absolute;
+    top: 100%;
+    left: 0;
     line-height: 0.9;
     font-family: "kajiro";
     color: #fff;
@@ -114,6 +123,7 @@ html,body{
     font-family: "kajiro";
     letter-spacing: 4px;
     border-radius: 0;
+    border: none;
     margin-top: 2vw;
 }
 
@@ -129,8 +139,9 @@ html,body{
 #heroright p{
     
     font-size: 14px;
-    font-weight: 300;
+    font-weight: 400;
     text-align: right;
+    line-height: 1.4;
 }
 
 #heroright #imagediv{
