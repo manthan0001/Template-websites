@@ -1,3 +1,8 @@
+@font-face {
+    font-family: "kajiro";
+    src: url(/Rayban-landing_page/fonts/Kajiro\ Bold.ttf) format('truetype');
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -48,6 +53,7 @@ html,body{
 }
 
 #nav{ 
+    pointer-events: all;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -67,7 +73,7 @@ html,body{
 
 #nav a{
     /* pointer event is set all on only a tag, must try and test on nav as a whole*/
-    pointer-events: all;  
+    /* pointer-events: all;   */
     color: #fff;
     text-decoration: none;
     font-size: 0.9rem;
