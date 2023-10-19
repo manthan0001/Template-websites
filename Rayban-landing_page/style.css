@@ -1,6 +1,8 @@
 @font-face {
     font-family: "kajiro";
     src: url(../../Rayban-landing_page/fonts/Kajiro-Bold.ttf) format('truetype');
+
+    font-family: 'Quicksand';
 }
 
 *{
@@ -126,7 +128,7 @@ html,body{
     pointer-events: all;
     padding: 0.5vw 2vw;
     font-size: 2vw;
-    font-family: "kajiro";
+    font-family: 'Quicksand';
     letter-spacing: 4px;
     border-radius: 0;
     border: none;
