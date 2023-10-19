@@ -1,8 +1,7 @@
 @font-face {
     font-family: "kajiro";
-    src: url(/Rayban-landing_page/fonts/Kajiro-Bold.ttf) format('truetype');
+    src: url(./fonts/Kajiro-Bold.ttf) format('truetype');
 
-    font-family: 'Quicksand';
 }
 
 *{
