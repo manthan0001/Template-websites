@@ -128,7 +128,7 @@ html,body{
     pointer-events: all;
     padding: 0.5vw 2vw;
     font-size: 2vw;
-    font-family: 'Kajiro';
+    font-family: sans-serif;
     letter-spacing: 4px;
     border-radius: 0;
     border: none;
